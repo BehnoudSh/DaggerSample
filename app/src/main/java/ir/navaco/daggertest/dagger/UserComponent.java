@@ -8,5 +8,4 @@ public interface UserComponent {
 
     void inject(MainActivity mainActivity);
 
-
 }

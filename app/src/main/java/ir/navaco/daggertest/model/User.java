@@ -7,10 +7,16 @@ import javax.inject.Inject;
 public class User {
 
     private static final String TAG = "User";
+    private Address address;
+
+//    @Inject
+//    public User() {
+//
+//    }
 
     @Inject
-    public User() {
-
+    public User(Address address) {
+        this.address = address;
     }
 
     public void show() {

@@ -1,4 +1,4 @@
-package ir.navaco.daggertest;
+package ir.navaco.daggertest.application;
 
 import dagger.android.AndroidInjector;
 import dagger.android.support.DaggerApplication;
